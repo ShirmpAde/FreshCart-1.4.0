@@ -1004,35 +1004,49 @@
 								<li class="nav-item">
 									<a class="nav-link" aria-current="page" href="account-orders.html">
 										<i class="feather-icon icon-shopping-bag me-2"></i>
-										Your Orders
+										주문내역
 									</a>
 								</li>
 								<!-- nav item -->
 								<li class="nav-item">
-									<a class="nav-link" href="account-settings.html">
+									<a class="nav-link" href="setting-information.html">
 										<i class="feather-icon icon-settings me-2"></i>
-										Settings
+										개인 정보수정
 									</a>
 								</li>
+								<!-- nav item -->
+								<li class="nav-item">
+									<a class="nav-link" href="setting-password.html">
+										<i class="feather-icon icon-settings me-2"></i>
+										비밀번호 수정
+									</a>
+								</li>
+								<!-- nav item -->
+								<li class="nav-item">
+									<a class="nav-link" href="setting-removeaccount.html">
+										<i class="feather-icon icon-settings me-2"></i>
+										계정탈퇴
+									</a>
+								</li>																
 								<!-- nav item -->
 								<li class="nav-item">
 									<a class="nav-link" href="account-address.html">
 										<i class="feather-icon icon-map-pin me-2"></i>
-										Address
+										주소
 									</a>
 								</li>
 								<!-- nav item -->
 								<li class="nav-item">
 									<a class="nav-link" href="account-payment-method.html">
 										<i class="feather-icon icon-credit-card me-2"></i>
-										Payment Method
+										결제방법
 									</a>
 								</li>
 								<!-- nav item -->
 								<li class="nav-item">
 									<a class="nav-link active" href="account-notification.html">
 										<i class="feather-icon icon-bell me-2"></i>
-										Notification
+										공고
 									</a>
 								</li>
 								<!-- nav item -->
@@ -1043,7 +1057,7 @@
 								<li class="nav-item">
 									<a class="nav-link" href="../index.html">
 										<i class="feather-icon icon-log-out me-2"></i>
-										Log out
+										로그아웃
 									</a>
 								</li>
 							</ul>
@@ -1053,20 +1067,20 @@
 						<div class="py-6 p-md-6 p-lg-10">
 							<div class="mb-6">
 								<!-- heading -->
-								<h2 class="mb-0">Notification settings</h2>
+								<h2 class="mb-0">알림 설정</h2>
 							</div>
 
 							<div class="mb-10">
 								<!-- text -->
 								<div class="border-bottom pb-3 mb-5">
-									<h5 class="mb-0">Email Notifications</h5>
+									<h5 class="mb-0">이메일 알림</h5>
 								</div>
 								<!-- text -->
 								<div class="d-flex justify-content-between align-items-center mb-6">
 									<div>
-										<h6 class="mb-1">Weekly Notification</h6>
-										<p class="mb-0">Various versions have evolved over the years, sometimes by
-											accident, sometimes on purpose .</p>
+										<h6 class="mb-1">주간 알림</h6>
+										<p class="mb-0">주간 알림을 설정하면 선택한 요일과 시간에 맞춰 
+										자동으로 알림을 받을 수 있습니다. </p>
 									</div>
 									<!-- checkbox -->
 									<div class="form-check form-switch">
@@ -1078,12 +1092,10 @@
 								<div class="d-flex justify-content-between align-items-center">
 									<!-- text -->
 									<div>
-										<h6 class="mb-1">Account Summary</h6>
+										<h6 class="mb-1">계정 요약</h6>
 										<p class="mb-0 pe-12">
-											Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-											ac turpis eguris eu sollicitudin massa. Nulla ipsum odio, aliquam in odio
-											et, fermentum
-											blandit nulla.
+											계정 요약 알림을 설정하면 계정 활동 및 주요 정보를 정기적으로 받아볼 수 있습니다. 
+											설정을 통해 요약 주기와 내용을 조정하여 필요한 정보를 편리하게 확인하세요!
 										</p>
 									</div>
 									<!-- form checkbox -->
@@ -1097,12 +1109,12 @@
 							<div class="mb-10">
 								<!-- heading -->
 								<div class="border-bottom pb-3 mb-5">
-									<h5 class="mb-0">Order updates</h5>
+									<h5 class="mb-0">주문 업데이트</h5>
 								</div>
 								<div class="d-flex justify-content-between align-items-center mb-6">
 									<div>
 										<!-- heading -->
-										<h6 class="mb-0">Text messages</h6>
+										<h6 class="mb-0">문자 메시지</h6>
 									</div>
 									<!-- form checkbox -->
 									<div class="form-check form-switch">
@@ -1114,8 +1126,8 @@
 								<!-- text -->
 								<div class="d-flex justify-content-between align-items-center">
 									<div>
-										<h6 class="mb-1">Call before checkout</h6>
-										<p class="mb-0">We'll only call if there are pending changes</p>
+										<h6 class="mb-1">결제하기 전 전화</h6>
+										<p class="mb-0">보류 중인 변경사항이 있는 경우에만 해당</p>
 									</div>
 									<!-- form checkbox -->
 									<div class="form-check form-switch">
@@ -1128,37 +1140,37 @@
 							<div class="mb-6">
 								<!-- text -->
 								<div class="border-bottom pb-3 mb-5">
-									<h5 class="mb-0">Website Notification</h5>
+									<h5 class="mb-0">웹사이트 알림</h5>
 								</div>
 								<div>
 									<!-- form checkbox -->
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="flexCheckFollower"
 											checked />
-										<label class="form-check-label" for="flexCheckFollower">New Follower</label>
+										<label class="form-check-label" for="flexCheckFollower">새로운 팔로워</label>
 									</div>
 									<!-- form checkbox -->
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="flexCheckPost" />
-										<label class="form-check-label" for="flexCheckPost">Post Like</label>
+										<label class="form-check-label" for="flexCheckPost">게시물 좋아요</label>
 									</div>
 									<!-- form checkbox -->
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="flexCheckPosted" />
-										<label class="form-check-label" for="flexCheckPosted">Someone you followed
-											posted</label>
+										<label class="form-check-label" for="flexCheckPosted">내가 팔로우한 사람이 
+											게시물을 올렸습니다</label>
 									</div>
 									<!-- form checkbox -->
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value=""
 											id="flexCheckCollection" />
-										<label class="form-check-label" for="flexCheckCollection">Post added to
-											collection</label>
+										<label class="form-check-label" for="flexCheckCollection">소식이 컬렉션에 
+											추가되었습니다</label>
 									</div>
 									<!-- form checkbox -->
 									<div class="form-check">
 										<input class="form-check-input" type="checkbox" value="" id="flexCheckOrder" />
-										<label class="form-check-label" for="flexCheckOrder">Order Delivery</label>
+										<label class="form-check-label" for="flexCheckOrder">주문배송</label>
 									</div>
 								</div>
 							</div>
@@ -1172,59 +1184,79 @@
 	<!-- modal -->
 
 	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasAccount" aria-labelledby="offcanvasAccountLabel">
-		<!-- offcanvac header -->
+		<!-- offcanvas header -->
 		<div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="offcanvasAccountLabel">Offcanvas</h5>
+			<h5 class="offcanvas-title" id="offcanvasAccountLabel">오프캔퍼스</h5>
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		</div>
-		<!-- offcanvac body -->
+		<!-- offcanvas body -->
 		<div class="offcanvas-body">
 			<ul class="nav flex-column nav-pills nav-pills-dark">
 				<!-- nav item -->
 				<li class="nav-item">
 					<a class="nav-link" aria-current="page" href="account-orders.html">
 						<i class="feather-icon icon-shopping-bag me-2"></i>
-						Your Orders
+						주문내역
 					</a>
-				</li>
+				</li>				
 				<!-- nav item -->
+
 				<li class="nav-item">
-					<a class="nav-link" href="account-settings.html">
+					<a class="nav-link" href="setting-information.html">
 						<i class="feather-icon icon-settings me-2"></i>
-						Settings
+						개인 정보수정
 					</a>
 				</li>
 				<!-- nav item -->
+
+				<li class="nav-item">
+					<a class="nav-link" href="setting-password.html">
+						<i class="feather-icon icon-settings me-2"></i>
+						비밀번호 수정
+					</a>
+				</li>
+				<!-- nav item -->
+
+				<li class="nav-item">
+					<a class="nav-link" href="setting-removeaccount.html">
+						<i class="feather-icon icon-settings me-2"></i>
+						계정탈퇴
+					</a>
+				</li>
+				<!-- nav item -->
+
 				<li class="nav-item">
 					<a class="nav-link" href="account-address.html">
 						<i class="feather-icon icon-map-pin me-2"></i>
-						Address
+						주소
 					</a>
 				</li>
 				<!-- nav item -->
+
 				<li class="nav-item">
 					<a class="nav-link" href="account-payment-method.html">
 						<i class="feather-icon icon-credit-card me-2"></i>
-						Payment Method
+						결제방법
 					</a>
 				</li>
 				<!-- nav item -->
+
 				<li class="nav-item">
 					<a class="nav-link active" href="account-notification.html">
 						<i class="feather-icon icon-bell me-2"></i>
-						Notification
+						공고
 					</a>
 				</li>
 			</ul>
 			<hr class="my-6" />
 			<div>
-				<!-- nav -->
+				<!-- navs -->
 				<ul class="nav flex-column nav-pills nav-pills-dark">
 					<!-- nav item -->
 					<li class="nav-item">
 						<a class="nav-link" href="../index.html">
 							<i class="feather-icon icon-log-out me-2"></i>
-							Log out
+							로그아웃
 						</a>
 					</li>
 				</ul>
@@ -1238,89 +1270,87 @@
 		<div class="container">
 			<div class="row g-4 py-4">
 				<div class="col-12 col-md-12 col-lg-4">
-					<h6 class="mb-4">Categories</h6>
-					<div class="row">
-						<div class="col-6">
-							<!-- list -->
-							<ul class="nav flex-column">
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Vegetables & Fruits</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Breakfast & instant food</a>
-								</li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Bakery & Biscuits</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Atta, rice & dal</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Sauces & spreads</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Organic & gourmet</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Baby care</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Cleaning essentials</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Personal care</a></li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<!-- list -->
-							<ul class="nav flex-column">
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Dairy, bread & eggs</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Cold drinks & juices</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Tea, coffee & drinks</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Masala, oil & more</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Chicken, meat & fish</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Paan corner</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Pharma & wellness</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Home & office</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Pet care</a></li>
-							</ul>
-						</div>
+				  <h6 class="mb-4">카테고리</h6>
+				  <div class="row">
+					<div class="col-6">
+					  <!-- list -->
+					  <ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">야채 & 과일</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 아침 & 즉석음식</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 빵 & 비스킷</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Atta, rice & dal</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">소스 & 스프레드</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">유기농 & 도시락</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">아기 용품</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">청소 필수품</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">개인관리 용품</a></li>
+					  </ul>
 					</div>
+					<div class="col-6">
+					  <!-- list -->
+					  <ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">유제품, 빵 & 계란</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 차가운 음료 & 주스</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 차, 커피 & 음료</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">마살라, 오일등</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">치킨, 고기 & 물고기</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Paan corner</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 제약품 & 웰빙</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">홈 & 오피스</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">애완용품</a></li>
+					  </ul>
+					</div>
+				  </div>
 				</div>
 				<div class="col-12 col-md-12 col-lg-8">
-					<div class="row g-4">
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">Get to know us</h6>
-							<!-- list -->
-							<ul class="nav flex-column">
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Company</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">About</a></li>
-								<li class="nav-item mb-2"><a href="#1" class="nav-link">Blog</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Help Center</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Our Value</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">For Consumers</h6>
-							<ul class="nav flex-column">
-								<!-- list -->
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Payments</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Shipping</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Product Returns</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
-								<li class="nav-item mb-2"><a href="../pages/shop-checkout.html" class="nav-link">Shop
-										Checkout</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">Become a Shopper</h6>
-							<ul class="nav flex-column">
-								<!-- list -->
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Shopper Opportunities</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Become a Shopper</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Earnings</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Ideas & Guides</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">New Retailers</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">Freshcart programs</h6>
-							<ul class="nav flex-column">
-								<!-- list -->
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart programs</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Gift Cards</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Promos & Coupons</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart Ads</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Careers</a></li>
-							</ul>
-						</div>
+				  <div class="row g-4">
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">자사에 대하여</h6>
+					  <!-- list -->
+					  <ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">회사</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">자사에 대하여</a></li>
+						<li class="nav-item mb-2"><a href="#1" class="nav-link">블로그</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">질문 데스크</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">자사의 가치</a></li>
+					  </ul>
 					</div>
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">소비자 코너</h6>
+					  <ul class="nav flex-column">
+						<!-- list -->
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">지불</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">배송</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">제품반송</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
+						<li class="nav-item mb-2"><a href="../pages/shop-checkout.html" class="nav-link">매장 결제</a></li>
+					  </ul>
+					</div>
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">쇼핑객이 되세요</h6>
+					  <ul class="nav flex-column">
+						<!-- list -->
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">구매자 기회</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">쇼핑객이 되세요</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">수입</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">아이디어 & 가이드</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">새로운 소매업체</a></li>
+					  </ul>
+					</div>
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">Freshcart 프로그램</h6>
+					  <ul class="nav flex-column">
+						<!-- list -->
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart 프로그램</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">기프트 카드</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">프로모션 & 쿠폰</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart 광고</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">직업</a></li>
+					  </ul>
+					</div>
+				  </div>
 				</div>
-			</div>
+			  </div>
 			<div class="border-top py-4">
 				<div class="row align-items-center">
 					<div class="col-lg-5 text-lg-start text-center mb-2 mb-lg-0">

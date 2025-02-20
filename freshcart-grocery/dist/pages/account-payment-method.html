@@ -987,7 +987,7 @@
 					<div class="col-12">
 						<div class="d-flex justify-content-between align-items-center d-md-none py-4">
 							<!-- heading -->
-							<h3 class="fs-5 mb-0">Account Setting</h3>
+							<h3 class="fs-5 mb-0">계정설정</h3>
 							<!-- button -->
 							<button class="btn btn-outline-gray-400 text-muted d-md-none btn-icon btn-sm ms-3"
 								type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasAccount"
@@ -1004,35 +1004,49 @@
 								<li class="nav-item">
 									<a class="nav-link" aria-current="page" href="account-orders.html">
 										<i class="feather-icon icon-shopping-bag me-2"></i>
-										Your Orders
+										주문내역
 									</a>
 								</li>
 								<!-- nav item -->
 								<li class="nav-item">
-									<a class="nav-link" href="account-settings.html">
+									<a class="nav-link" href="setting-information.html">
 										<i class="feather-icon icon-settings me-2"></i>
-										Settings
+										개인 정보수정
 									</a>
 								</li>
+								<!-- nav item -->
+								<li class="nav-item">
+									<a class="nav-link" href="setting-password.html">
+										<i class="feather-icon icon-settings me-2"></i>
+										비밀번호 수정
+									</a>
+								</li>
+								<!-- nav item -->
+								<li class="nav-item">
+									<a class="nav-link" href="setting-removeaccount.html">
+										<i class="feather-icon icon-settings me-2"></i>
+										계정탈퇴
+									</a>
+								</li>																
 								<!-- nav item -->
 								<li class="nav-item">
 									<a class="nav-link" href="account-address.html">
 										<i class="feather-icon icon-map-pin me-2"></i>
-										Address
+										주소
 									</a>
 								</li>
 								<!-- nav item -->
 								<li class="nav-item">
 									<a class="nav-link active" href="account-payment-method.html">
 										<i class="feather-icon icon-credit-card me-2"></i>
-										Payment Method
+										결제방법
 									</a>
 								</li>
 								<!-- nav item -->
 								<li class="nav-item">
 									<a class="nav-link" href="account-notification.html">
 										<i class="feather-icon icon-bell me-2"></i>
-										Notification
+										공고
 									</a>
 								</li>
 								<!-- nav item -->
@@ -1043,7 +1057,7 @@
 								<li class="nav-item">
 									<a class="nav-link" href="../index.html">
 										<i class="feather-icon icon-log-out me-2"></i>
-										Log out
+										로그아웃
 									</a>
 								</li>
 							</ul>
@@ -1053,9 +1067,9 @@
 						<div class="py-6 p-md-6 p-lg-10">
 							<!-- heading -->
 							<div class="d-flex justify-content-between mb-6 align-items-center">
-								<h2 class="mb-0">Payment Methods</h2>
+								<h2 class="mb-0">결제 방법</h2>
 								<a href="#" class="btn btn-outline-primary" data-bs-toggle="modal"
-									data-bs-target="#paymentModal">Add Payment</a>
+									data-bs-target="#paymentModal">결제 추가</a>
 							</div>
 							<ul class="list-group list-group-flush">
 								<!-- List group item -->
@@ -1067,12 +1081,12 @@
 											<!-- text -->
 											<div class="ms-4">
 												<h5 class="mb-0 h6 h6">**** 1234</h5>
-												<p class="mb-0 small">Expires in 10/2023</p>
+												<p class="mb-0 small">2023년 10월에 만료됨</p>
 											</div>
 										</div>
 										<div>
 											<!-- button -->
-											<a href="#" class="btn btn-outline-gray-400 disabled btn-sm">Remove</a>
+											<a href="#" class="btn btn-outline-gray-400 disabled btn-sm">제거하기</a>
 										</div>
 									</div>
 								</li>
@@ -1084,13 +1098,13 @@
 											<img src="../assets/images/svg-graphics/mastercard.svg" alt=""
 												class="me-3" />
 											<div>
-												<h5 class="mb-0 h6">Mastercard ending in 1234</h5>
-												<p class="mb-0 small">Expires in 03/2026</p>
+												<h5 class="mb-0 h6">2027년으로 끝나는 Master 카드</h5>
+												<p class="mb-0 small">2023년 03월에 만료됨</p>
 											</div>
 										</div>
 										<div>
 											<!-- button-->
-											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Remove</a>
+											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">제거하기</a>
 										</div>
 									</div>
 								</li>
@@ -1102,17 +1116,17 @@
 											<img src="../assets/images/svg-graphics/discover.svg" alt="" class="me-3" />
 											<div>
 												<!-- text -->
-												<h5 class="mb-0 h6">Discover ending in 1234</h5>
+												<h5 class="mb-0 h6">2023년으로 끝나는 Discover 카드</h5>
 												<p class="mb-0 small">
-													Expires in 07/2020
-													<span class="badge bg-warning text-dark">This card is
-														expired.</span>
+													2023년 07월에 만료됨
+													<span class="badge bg-warning text-dark">이 카드는
+														만료되었습니다.</span>
 												</p>
 											</div>
 										</div>
 										<div>
 											<!-- btn -->
-											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Remove</a>
+											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">제거하기</a>
 										</div>
 									</div>
 								</li>
@@ -1125,13 +1139,13 @@
 												class="me-3" />
 											<!-- text -->
 											<div>
-												<h5 class="mb-0 h6">American Express ending in 1234</h5>
-												<p class="mb-0 small">Expires in 12/2021</p>
+												<h5 class="mb-0 h6">2025년으로 끝나는 American Express 카드</h5>
+												<p class="mb-0 small">2025년 12월에 만료됨</p>
 											</div>
 										</div>
 										<div>
 											<!-- btn -->
-											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Remove</a>
+											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">제거하기</a>
 										</div>
 									</div>
 								</li>
@@ -1143,13 +1157,13 @@
 											<img src="../assets/images/svg-graphics/paypal.svg" alt="" class="me-3" />
 											<div>
 												<!-- text -->
-												<h5 class="mb-0 h6">Paypal Express ending in 1234</h5>
-												<p class="mb-0 small">Expires in 10/2021</p>
+												<h5 class="mb-0 h6">2026년으로 끝나는 Paypal Express 카드</h5>
+												<p class="mb-0 small">2026년 10월에 만료됨</p>
 											</div>
 										</div>
 										<div>
 											<!-- btn -->
-											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">Remove</a>
+											<a href="#" class="btn btn-outline-gray-400 text-muted btn-sm">제거하기</a>
 										</div>
 									</div>
 								</li>
@@ -1164,7 +1178,7 @@
 	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasAccount" aria-labelledby="offcanvasAccountLabel">
 		<!-- offcanvas header -->
 		<div class="offcanvas-header">
-			<h5 class="offcanvas-title" id="offcanvasAccountLabel">Offcanvas</h5>
+			<h5 class="offcanvas-title" id="offcanvasAccountLabel">오프캔퍼스</h5>
 			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 		</div>
 		<!-- offcanvas body -->
@@ -1174,35 +1188,55 @@
 				<li class="nav-item">
 					<a class="nav-link" aria-current="page" href="account-orders.html">
 						<i class="feather-icon icon-shopping-bag me-2"></i>
-						Your Orders
+						주문내역
 					</a>
-				</li>
+				</li>				
 				<!-- nav item -->
+
 				<li class="nav-item">
-					<a class="nav-link" href="account-settings.html">
+					<a class="nav-link" href="setting-information.html">
 						<i class="feather-icon icon-settings me-2"></i>
-						Settings
+						개인 정보수정
 					</a>
 				</li>
 				<!-- nav item -->
+
+				<li class="nav-item">
+					<a class="nav-link" href="setting-password.html">
+						<i class="feather-icon icon-settings me-2"></i>
+						비밀번호 수정
+					</a>
+				</li>
+				<!-- nav item -->
+
+				<li class="nav-item">
+					<a class="nav-link" href="setting-removeaccount.html">
+						<i class="feather-icon icon-settings me-2"></i>
+						계정탈퇴
+					</a>
+				</li>
+				<!-- nav item -->
+
 				<li class="nav-item">
 					<a class="nav-link" href="account-address.html">
 						<i class="feather-icon icon-map-pin me-2"></i>
-						Address
+						주소
 					</a>
 				</li>
 				<!-- nav item -->
+
 				<li class="nav-item">
 					<a class="nav-link active" href="account-payment-method.html">
 						<i class="feather-icon icon-credit-card me-2"></i>
-						Payment Method
+						결제방법
 					</a>
 				</li>
 				<!-- nav item -->
+
 				<li class="nav-item">
 					<a class="nav-link" href="account-notification.html">
 						<i class="feather-icon icon-bell me-2"></i>
-						Notification
+						공고
 					</a>
 				</li>
 			</ul>
@@ -1214,7 +1248,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="../index.html">
 							<i class="feather-icon icon-log-out me-2"></i>
-							Log out
+							로그아웃
 						</a>
 					</li>
 				</ul>
@@ -1347,89 +1381,87 @@
 		<div class="container">
 			<div class="row g-4 py-4">
 				<div class="col-12 col-md-12 col-lg-4">
-					<h6 class="mb-4">Categories</h6>
-					<div class="row">
-						<div class="col-6">
-							<!-- list -->
-							<ul class="nav flex-column">
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Vegetables & Fruits</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Breakfast & instant food</a>
-								</li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Bakery & Biscuits</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Atta, rice & dal</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Sauces & spreads</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Organic & gourmet</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Baby care</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Cleaning essentials</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Personal care</a></li>
-							</ul>
-						</div>
-						<div class="col-6">
-							<!-- list -->
-							<ul class="nav flex-column">
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Dairy, bread & eggs</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Cold drinks & juices</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Tea, coffee & drinks</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Masala, oil & more</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Chicken, meat & fish</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Paan corner</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link"> Pharma & wellness</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Home & office</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Pet care</a></li>
-							</ul>
-						</div>
+				  <h6 class="mb-4">카테고리</h6>
+				  <div class="row">
+					<div class="col-6">
+					  <!-- list -->
+					  <ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">야채 & 과일</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 아침 & 즉석음식</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 빵 & 비스킷</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Atta, rice & dal</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">소스 & 스프레드</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">유기농 & 도시락</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">아기 용품</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">청소 필수품</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">개인관리 용품</a></li>
+					  </ul>
 					</div>
+					<div class="col-6">
+					  <!-- list -->
+					  <ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">유제품, 빵 & 계란</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 차가운 음료 & 주스</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 차, 커피 & 음료</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">마살라, 오일등</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">치킨, 고기 & 물고기</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Paan corner</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link"> 제약품 & 웰빙</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">홈 & 오피스</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">애완용품</a></li>
+					  </ul>
+					</div>
+				  </div>
 				</div>
 				<div class="col-12 col-md-12 col-lg-8">
-					<div class="row g-4">
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">Get to know us</h6>
-							<!-- list -->
-							<ul class="nav flex-column">
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Company</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">About</a></li>
-								<li class="nav-item mb-2"><a href="#1" class="nav-link">Blog</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Help Center</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Our Value</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">For Consumers</h6>
-							<ul class="nav flex-column">
-								<!-- list -->
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Payments</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Shipping</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Product Returns</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
-								<li class="nav-item mb-2"><a href="../pages/shop-checkout.html" class="nav-link">Shop
-										Checkout</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">Become a Shopper</h6>
-							<ul class="nav flex-column">
-								<!-- list -->
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Shopper Opportunities</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Become a Shopper</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Earnings</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Ideas & Guides</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">New Retailers</a></li>
-							</ul>
-						</div>
-						<div class="col-6 col-sm-6 col-md-3">
-							<h6 class="mb-4">Freshcart programs</h6>
-							<ul class="nav flex-column">
-								<!-- list -->
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart programs</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Gift Cards</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Promos & Coupons</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart Ads</a></li>
-								<li class="nav-item mb-2"><a href="#!" class="nav-link">Careers</a></li>
-							</ul>
-						</div>
+				  <div class="row g-4">
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">자사에 대하여</h6>
+					  <!-- list -->
+					  <ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">회사</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">자사에 대하여</a></li>
+						<li class="nav-item mb-2"><a href="#1" class="nav-link">블로그</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">질문 데스크</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">자사의 가치</a></li>
+					  </ul>
 					</div>
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">소비자 코너</h6>
+					  <ul class="nav flex-column">
+						<!-- list -->
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">지불</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">배송</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">제품반송</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">FAQ</a></li>
+						<li class="nav-item mb-2"><a href="../pages/shop-checkout.html" class="nav-link">매장 결제</a></li>
+					  </ul>
+					</div>
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">쇼핑객이 되세요</h6>
+					  <ul class="nav flex-column">
+						<!-- list -->
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">구매자 기회</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">쇼핑객이 되세요</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">수입</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">아이디어 & 가이드</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">새로운 소매업체</a></li>
+					  </ul>
+					</div>
+					<div class="col-6 col-sm-6 col-md-3">
+					  <h6 class="mb-4">Freshcart 프로그램</h6>
+					  <ul class="nav flex-column">
+						<!-- list -->
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart 프로그램</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">기프트 카드</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">프로모션 & 쿠폰</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">Freshcart 광고</a></li>
+						<li class="nav-item mb-2"><a href="#!" class="nav-link">직업</a></li>
+					  </ul>
+					</div>
+				  </div>
 				</div>
-			</div>
+			  </div>
 			<div class="border-top py-4">
 				<div class="row align-items-center">
 					<div class="col-lg-5 text-lg-start text-center mb-2 mb-lg-0">
